@@ -21,3 +21,9 @@ Entre na pasta raiz do projeto, comple a aplicação e suba os containeres:
 O Swagger da aplicação se encontra no host:
 
     http://localhost:8080/swagger-ui.html
+
+Como foi implementado a segurança para os endpoints, deixei também para a documentação, logo a página
+do Swegger pedirá usuário e senha, que são respectivamente:
+
+    username
+    password
