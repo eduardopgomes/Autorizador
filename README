@@ -4,15 +4,6 @@ Esta aplicação foi compilada no Java 17. Ela está disponível no github, no r
 
     https://github.com/eduardopgomes/Autorizador
 
-Para executar dentro do ambiente do container, foram criandas variáveis de ambiente as quais devem estar
-configuradas no seu sistema operacional para conseguir compilar o projeto. São elas:
-
-     spring.datasource.url=${SPRING_DATASOURCE_URL}
-     spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
-     spring.datasource.password=
-
-Estas variáves, dentro da aplicação, estão em application.properties.
-
 Entre na pasta raiz do projeto, comple a aplicação e suba os containeres:
 
     mvn clear package
